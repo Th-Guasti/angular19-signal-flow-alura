@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './livro.css'
 })
 export class Livro {
+  alternarFavorito() {
+    this.livro.favorito = !this.livro.favorito;
+  }
+
   livro = {
     titulo: "As ondas",
     autoria: "Virginia Woolf",
+    favorito: false,
     imagem: "https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg"
   }
 }
