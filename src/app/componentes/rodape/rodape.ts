@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './rodape.html',
   styleUrl: './rodape.css'
 })
-export class Rodape {
+export class RodapeComponent {
 
 }
